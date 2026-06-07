@@ -1,0 +1,15 @@
+name: TDS Assignment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2009286@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
