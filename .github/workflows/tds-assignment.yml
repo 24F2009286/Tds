@@ -1,15 +1,11 @@
-name: TDS Assignment
+name: IITM Action Validation
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering to ensure it is the most recent run
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: 24f2009286@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+        run: echo "Execution verified."
